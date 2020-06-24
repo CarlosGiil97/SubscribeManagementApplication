@@ -1,0 +1,401 @@
+<!DOCTYPE HTML>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<!--
+	CDN JQUERY
+-->
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+  
+  <script>
+	  $(document).ready(function(){
+   $("#mostrarprimero").click(function(){
+	$("#primero").css("display", "block");
+	$("#mostrarprimero").css("display", "none");
+   });
+   $("#ocultarprimero").click(function(){
+	$("#primero").css("display", "none");
+	$("#mostrarprimero").css("display", "inline-block");
+   });
+   $("#mostrarsegundo").click(function(){
+	$("#segundo").css("display", "block");
+	$("#mostrarsegundo").css("display", "none");
+   });
+   $("#ocultarsegundo").click(function(){
+	$("#segundo").css("display", "none");
+	$("#mostrarsegundo").css("display", "inline-block");
+   });
+   $("#mostrartercero").click(function(){
+	$("#tercero").css("display", "block");
+	$("#mostrartercero").css("display", "none");
+   });
+   $("#ocultartercero").click(function(){
+	$("#tercero").css("display", "none");
+	$("#mostrartercero").css("display", "inline-block");
+
+   });
+   $("#mostrarcuarto").click(function(){
+	$("#cuarto").css("display", "block");
+	$("#mostrarcuarto").css("display", "none");
+   });
+   $("#ocultarcuarto").click(function(){
+	$("#cuarto").css("display", "none");
+	$("#mostrarcuarto").css("display", "inline-block");
+
+   });
+   $("#mostrarquinto").click(function(){
+	$("#quinto").css("display", "block");
+	$("#mostrarquinto").css("display", "none");
+
+   });
+   $("#ocultarquinto").click(function(){
+	$("#quinto").css("display", "none");
+	$("#mostrarquinto").css("display", "inline-block");
+
+   });
+   $("#mostrarsexto").click(function(){
+	$("#sexto").css("display", "block");
+	$("#mostrarsexto").css("display", "none");
+
+   });
+   $("#ocultarsexto").click(function(){
+	$("#sexto").css("display", "none");
+	$("#mostrarsexto").css("display", "inline-block");
+
+   });
+});
+
+</script>
+
+</script>
+<style>
+	span{display:block;}
+	.imagenesfooter{
+	margin:10px;
+	display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+</style>
+<html>
+	<head>
+		<title>Abonate al GranadaCF!</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link  rel="icon"   href="images/granada.png" type="image/png" />
+
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="index.html">Granada CF</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="php/registro.php">Hazte Socio</a></li>
+					<li><a href="php/iniciarsesion.php">Inicia Sesión</a></li>
+					<li><a href="php/estadio_disponibilidad.php">Ver disponibilidad de asientos</a></li>
+					<li><a href="php/graficos/pruebagraficos.php">Gráficos de interes</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h1>Granada C.F</h1>
+					<h2>Campaña de abonados 19/20</h2>
+					<h3>#ETERNALUCHA</h3>
+				</div>
+				<!-- <video autoplay loop muted playsinline src="images/banner.mp4"></video> -->
+			</section>
+
+		<!-- Highlights -->
+			<section class="wrapper">
+				<div class="inner">
+					<a href="php/registro.php" class="button primary large" style="float: left;width: 40%;">Hazte socio</a><a href="php/iniciarsesion.php" style="float: right;width: 40%;" class="button  large">Inicia Sesión</a>
+					<br style="clear: both;">
+					<br>
+					<hr>
+					<header class="special">
+						<h2>Tipos de abono</h2>
+						<p>El club cuenta con una serie de abonos dependiento de la situación en la que se encuentre usted.Podrás econtrar abono desde los más pequeños
+							de la casa hasta gente que se encuentra jubilada.A continuación os explicamos cada abono y sus respectivas características:
+						</p>
+						
+					</header>
+					<div class="highlights">
+						<section>
+							<div class="content">
+								<header>
+									<a><img src="images/logo-adulto.png" width="250" height="400px"></a>
+									<h3>Abono adulto</h3>
+									<span class="button small" id="mostrarprimero">Mostrar</span>
+								</header>
+								<p id="primero" style="display: none;">Para que los más futboleros disfruten de los 19 partidos de LaLiga y la presentación del equipo en el Nuevo Los Cármenes.
+									<br>
+								<a class="button primary" id="ocultarprimero">Cerrar</a></p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a><img src="images/logo-65.png" width="250" height="400px"></a>
+									<h3>Abono +65</h3>
+									<span class="button small" id="mostrarsegundo">Mostrar</span>
+								</header>
+								<p id="segundo" style="display: none;">Abono bonificado para mayores de 65 años con ganas de ver los 19 partidos de LaLiga y la presentación del equipo en el Nuevo Los Cármenes. Este abono es personal e intransferible al estar bonificado.
+									<br>
+								<a class="button primary" id="ocultarsegundo">Cerrar</a></p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a><img src="images/logo-social.png" width="250" height="400px"></a>
+									<h3>Abono Social</h3>
+									<span class="button small" id="mostrartercero">Mostrar</span>
+								</header>
+								<p id="tercero" style="display: none;">Este abono es personal e intransferible por estar bonificado. Está destinado a mayores de 18 años que sean desempleados o discapacitados con un grado de discapacidad igual o superior al 65% o con baremo de movilidad ‘sí’. Con acceso a los 19 partidos de LaLiga y la presentación en el Nuevo Los Cármenes.
+									<br>
+								<a class="button primary" id="ocultartercero">Cerrar</a></p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a><img src="images/logo-joven.png" width="250" height="400px"></a>
+									<h3>Abono Joven</h3>
+									<span class="button small" id="mostrarcuarto">Mostrar</span>
+								</header>
+								<p id="cuarto" style="display: none;">Para los jóvenes granadinistas que quieran apoyar a su equipo durante los 19 partidos de LaLiga y la presentación en el Nuevo Los Cármenes. Este abono es personal e intransferible al estar bonificado.
+
+									<br>
+								<a class="button primary" id="ocultarcuarto">Cerrar</a></p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a><img src="images/logo-infantil.png" width="250" height="400px"></a>
+									<h3>Abono Infantil</h3>
+									<span class="button small" id="mostrarquinto">Mostrar</span>
+								</header>
+								<p id="quinto" style="display: none;">Para los peques de casa, nacidos con posterioridad al 01/01/2005, que van a animar a su equipo durante los 19 partidos de LaLiga y la presentación en el Nuevo Los Cármenes. Este abono debe ir asociado a un abono de adulto. Es personal e intransferible al estar bonificado.
+									.
+
+									<br>
+								<a class="button primary" id="ocultarquinto">Cerrar</a></p>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<a><img src="images/logo-animacion.png" width="250" height="400px"></a>
+									<h3>Abono Animacion</h3>
+									<span class="button small" id="mostrarsexto">Mostrar</span>
+								</header>
+								<p id="sexto" style="display: none;">Para que los que quieren formar parde de la "Grada 1931" y hacer que el estaadio vibre con ellos los 19 partidos de LaLiga y la presentación del equipo en el Nuevo Los Cármenes.
+									.
+
+									<br>
+								<a class="button primary" id="ocultarsexto">Cerrar</a></p>
+							</div>
+						</section>
+					</div>
+				</div>
+			</section>
+
+		<!-- CTA -->
+			<section id="cta" class="wrapper">
+				<div class="inner">
+					<h2>Vive con nosotros una temporada más</h2>
+					<p>A continuación, se muestran los precios de cada uno de los carnets</p>
+				</div>
+			</section>
+
+		<!-- Testimonials -->
+			<section class="wrapper">
+				<div class="inner">
+					<div class="oculto">
+					<header class="special">
+						<h2>Precios Abonos Campaña 2019/2020</h2>
+						<hr>
+					</header>
+					<div class="content">
+						<img src="images/abonos.jpg" style="margin-left: 65px;">
+					</div>
+				</div>
+					<!-- <div class="testimonials">
+						<section>
+							<div class="content">
+								<blockquote>
+									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img src="images/pic01.jpg" alt="" />
+									</div>
+									<p class="credit">- <strong>Jane Doe</strong> <span>CEO - ABC Inc.</span></p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<blockquote>
+									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img src="images/pic03.jpg" alt="" />
+									</div>
+									<p class="credit">- <strong>John Doe</strong> <span>CEO - ABC Inc.</span></p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<blockquote>
+									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+								</blockquote>
+								<div class="author">
+									<div class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</div>
+									<p class="credit">- <strong>Janet Smith</strong> <span>CEO - ABC Inc.</span></p>
+								</div>
+							</div>
+						</section>
+					</div> -->
+				</div>
+			</section>
+		
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<div class="content">
+				<div class="imagenesfooter">
+						<div><img src="images/puleva.png" width="200px" height="200px"></div>
+						<div><img src="images/cajarural.png" width="200px" height="200px"></div>
+						<div><img src="images/winamax.png" width="200px" height="200px"></div>
+						<div><img src="images/alhambra.png" width="200px" height="200px"></div>
+						<div><img src="images/nike.png" width="200px" height="200px"></div>
+						<div><img src="images/cocacola.png" width="200px" height="100px"></div>
+						<div><img src="images/coviran.png" width="200px" height="200px"></div>
+						<div><img src="images/caixa.png" width="200px" height="200px"></div>
+						<div><img src="images/besoccer.png" width="200px" height="200px"></div>
+						<div><img src="images/podologo.png" width="200px" height="200px"></div>
+				</div>
+				</div>
+				<div class="copyright">
+					&copy; Untitled. Photos <a href="https://unsplash.co">GranadaCF</a>,2019-2020</a>.
+				</div>
+			</div>
+		</footer>
+		<footer id="footer" style="background-color:#a61b2b !important;height:100% !important">
+		<div class="inner">
+				<div class="content">
+					<section>
+					<h4><b>Noticias</b></h4>
+						<ul style="list-style:none;color:white;">
+							<li><a href="#">Club</a></li>
+							<li><a href="#">Primer equipo</a></li>
+							<li><a href="#">Recreativo Granada</a></li>
+							<li><a href="#">Granada Femenino</a></li>
+							<li><a href="#">Cantera Nazarí</a></li>
+							<li><a href="#">Patrocinados</a></li>
+						</ul>
+					</section>
+					<section>
+					<h4><b>Club</b></h4>
+						<ul style="list-style:none;color:white;">
+							<li><a href="#">Datos del club</a></li>
+							<li><a href="#">Organización</a></li>
+							<li><a href="#">Noticias</a></li>
+							<li><a href="#">Agenda General</a></li>
+							<li><a href="#">Asociaciones y peñas</a></li>
+							<li><a href="#">Revista Social</a></li>
+							<li><a href="#">Ley de transparencia</a></li>
+							<li><a href="#">Trabaja con nosotros</a></li>
+						</ul>
+					</section>
+					<section>
+					<h4><b>Primer Equipo</b></h4>
+						<ul style="list-style:none;color:white;">
+							<li><a href="#">Plantilla</a></li>
+							<li><a href="#">Agenda</a></li>
+							<li><a href="#">Resultado</a></li>
+							<li><a href="#">Calendario</a></li>
+							<li><a href="#">Clasificación</a></li>
+							<li><a href="#">Noticias</a></li>
+						</ul>
+					</section>
+					<section>
+					<h4><b>Equipos</b></h4>
+						<ul style="list-style:none;color:white;">
+							<li><a href="#">Club Recreativo Granada</a></li>
+							<li><a href="#">Granada Femenino</a></li>
+							<li><a href="#">Cantera</a></li>
+							<li><a href="#">Escuela GranadaCF</a></li>
+							<li><a href="#">Academia</a></li>
+
+							
+						</ul>
+					</section>
+
+				</div>
+				<div class="content">
+					<section>
+					<h4><b>Fotogaleria</b></h4>
+					</section>
+					<section>
+					<h4><b>Tienda</b></h4>
+					</section>
+					<section>
+					<h4><b>Entradas</b></h4>
+					<ul style="list-style:none;color:white;">
+							<li><a href="#">Entradas primer equipo</a></li>
+							<li><a href="#">Alhambra Sport Bar</a></li>
+							<li><a href="#">VIP</a></li>
+							<li><a href="#">Entradas desplazamientos</a></li>
+							<li><a href="#">Duplicado Abono</a></li>
+							<li><a href="#">Normativa de uso y acceso</a></li>
+							
+						</ul>
+					</section>
+					<section>
+					<h4><b>Acceso Abonado</b></h4>
+					</section>
+					<section>
+					<img src="images/escudo-granada.png" width="200px" height="200px">
+					</section>
+				</div>
+		</div>
+		</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
